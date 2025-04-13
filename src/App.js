@@ -4,12 +4,11 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 
 function App() {
-  // データ、カテゴリ、分野の選択状態を管理するステート
+  // データ、カテゴリ、分野の選択状態を管理
   const [data, setData] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('');
   const [selectedSubject, setSelectedSubject] = useState('');
 
-  // exam_data.json を fetch して JSON データを state に保存
   useEffect(() => {
     fetch('exam_data.json')
       .then((response) => response.json())
