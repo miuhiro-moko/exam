@@ -1,6 +1,8 @@
 # 院試の過去問の分野整理
 https://miuhiro-moko.github.io/exam/
 
+分野を指定すると過去に出題された年・問題番号を調べられる。
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
